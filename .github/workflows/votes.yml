@@ -1,0 +1,24 @@
+on:
+  check_run:
+    types: [rerequested]
+  schedule:
+    - cron: '4 23 * * *'
+    - cron: '*/15 * * * *'
+
+jobs:
+  _:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: get votes
+      uses: ailin-nemui/irssi-script-votes/list-irssi-scripts-votes@script
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: commit changes
+      run: |
+        git add votes.yml
+        git add votes.js
+        git config user.email votes@irssi.org
+        git config user.name "Irssi Votes Helper"
+        git commit -m "Votes from $(date)" || :
+        git push
