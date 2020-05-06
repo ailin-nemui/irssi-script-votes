@@ -53,7 +53,7 @@ addVotes({
    },
    "adv_windowlist.pl" : {
       "u" : "https://github.com/ailin-nemui/scripts.irssi.org/issues/8#issuecomment-242200754",
-      "v" : 8
+      "v" : 9
    },
    "ai.pl" : {
       "u" : "https://github.com/ailin-nemui/scripts.irssi.org/issues/5#issuecomment-242158608",
