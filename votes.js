@@ -1209,6 +1209,10 @@ addVotes({
       "u" : "https://github.com/ailin-nemui/scripts.irssi.org/issues/8#issuecomment-242200692",
       "v" : ""
    },
+   "mh_secureonlychan_489.pl" : {
+      "u" : "https://github.com/ailin-nemui/scripts.irssi.org/issues/9#issuecomment-633522821",
+      "v" : ""
+   },
    "mh_userstatus.pl" : {
       "u" : "https://github.com/ailin-nemui/scripts.irssi.org/issues/8#issuecomment-242200759",
       "v" : ""
