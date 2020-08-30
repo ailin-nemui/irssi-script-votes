@@ -1963,7 +1963,7 @@ addVotes({
    },
    "trackbar.pl" : {
       "u" : "https://github.com/ailin-nemui/scripts.irssi.org/issues/7#issuecomment-242195542",
-      "v" : 7
+      "v" : 6
    },
    "trackbar22.pl" : {
       "u" : "https://github.com/ailin-nemui/scripts.irssi.org/issues/7#issuecomment-242198427",
