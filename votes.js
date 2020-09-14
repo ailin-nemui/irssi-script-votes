@@ -1343,7 +1343,7 @@ addVotes({
    },
    "nickcolor.pl" : {
       "u" : "https://github.com/ailin-nemui/scripts.irssi.org/issues/6#issuecomment-242160957",
-      "v" : 3
+      "v" : 4
    },
    "nickcolor_expando.pl" : {
       "u" : "https://github.com/ailin-nemui/scripts.irssi.org/issues/7#issuecomment-242198347",
