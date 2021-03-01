@@ -25,7 +25,7 @@ sub get_votes {
     my $ua = $ng->ua;
     $ua->default_header(Accept => 'application/vnd.github.squirrel-girl-preview');
     my $iss = $ng->issue;
-    my $start = 2;
+    my $start = 1;
     my @comm = $iss->comments($start);
     my %res;
  RST: while (1) {
