@@ -15,6 +15,8 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: commit changes
       run: |
+        date +'%G%V' > .wk
+        git add .wk
         git add votes.yml
         git add votes.js
         git config user.email votes@irssi.org
