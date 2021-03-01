@@ -10,7 +10,7 @@ sub ng {
     my $gh = Net::GitHub::V3->new(
 	($ENV{GITHUB_TOKEN} ? (access_token => $ENV{GITHUB_TOKEN}) : ())
        );
-    my $proj = "ailin-nemui/scripts.irssi.org";
+    my $proj = "ailin-nemui/irssi-script-votes";
     my ($user, $project) = split '/', $proj, 2;
     return unless $user && $project;
     $gh->set_default_user_repo($user, $project);
