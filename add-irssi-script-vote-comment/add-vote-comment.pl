@@ -196,8 +196,10 @@ sub main {
 		    if ($res->{issue_map}{$issue_num}{comment_count} + $off < $MAX_COMMENTS) {
 			output "..I($issue_num)";
 			if ($res->{issue_map}{$issue_num}{issue}{locked}) {
-			    output "oLo";
+			    output "oL";
 			    $iss->unlock_issue($issue_num);
+			    sleep 5;
+			    output "o";
 			    $done++;
 			    $res->{issue_map}{$issue_num}{issue}{locked} = JSON::PP::false;
 			}
@@ -227,7 +229,7 @@ sub main {
 		$c = $iss->create_comment($found_issue, {
 		    body => "$sc->{filename}\n---\n$sc->{description}\n\nClick on +😃︎ :+1: :-1: to add your votes . ❲ Github login required .. ❳ "
 		});
-		output "$c->{id})";
+		output "$c->{id}";
 		$done++;
 		$c->{issue_num} = $found_issue;
 		$c->{issue_ref} = $res->{issue_map}{$found_issue}{issue};
@@ -237,6 +239,7 @@ sub main {
 		$res->{issue_map}{$found_issue}{comment_count}++;
 		$res->{script_map}{$sc->{filename}} = $c;
 		sleep 5;
+		output ")";
 	    }
 	    # $c->{body} =~ s{❲ Github login required .. ❳ \Z}{❲ Github [login](https://github.com/login?return_to=/$user_proj/issues/$c->{issue_num}%23issuecomment-$c->{id}) required .. ❳ }m;
 	    my $body = "$sc->{filename}\n---\n$sc->{description}\n\nClick on +😃︎ :+1: :-1: to add your votes . ❲ Github [login](https://github.com/login?return_to=/$user_proj/issues/$c->{issue_num}%23issuecomment-$c->{id}) required .. ❳ ";
@@ -246,6 +249,7 @@ sub main {
 		$done++;
 		$c->{body} = $body;
 		sleep 5;
+		output ".";
 	    }
 	    output "\n";
 	    $checked++;
