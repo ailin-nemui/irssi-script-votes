@@ -186,11 +186,11 @@ sub main {
 	} else {
 	    my $c;
 	    my $found_issue;
+	    $sc->{description} //= '';
 	    if (exists $res->{script_map}{$sc->{filename}}) {
-		output "\n..I($res->{script_map}{$sc->{filename}}{issue_num})C($res->{script_map}{$sc->{filename}}{id})";
+		output "..I($res->{script_map}{$sc->{filename}}{issue_num})C($res->{script_map}{$sc->{filename}}{id})";
 		$c = $res->{script_map}{$sc->{filename}};
 	    } else {
-		output "\n";
 		for my $issue_num (sort { $a <=> $b } keys %{$res->{issue_map}}) {
 		    my $off = $res->{issue_map}{$issue_num}{next_issue_ref_comment} ? 0 : 1;
 		    if ($res->{issue_map}{$issue_num}{comment_count} + $off < $MAX_COMMENTS) {
