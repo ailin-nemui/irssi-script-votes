@@ -1,0 +1,21 @@
+on:
+  workflow_dispatch:
+  check_run:
+    types: [rerequested]
+  schedule:
+    - cron: '*/10 * * * *'
+
+jobs:
+  _:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@main
+      with:
+        repository: irssi/scripts.irssi.org
+    - name: add vote comments
+      uses: ailin-nemui/irssi-script-votes/add-irssi-script-vote-comment@script
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        args:
+          _data/scripts.yaml
