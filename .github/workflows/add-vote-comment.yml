@@ -3,7 +3,7 @@ on:
   check_run:
     types: [rerequested]
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '4 11 * * *'
 
 jobs:
   _:
