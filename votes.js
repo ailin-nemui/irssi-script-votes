@@ -151,6 +151,10 @@ addVotes({
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/6#issuecomment-789439891",
       "v" : ""
    },
+   "autorealname.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-789749746",
+      "v" : ""
+   },
    "autorejoin.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/13#issuecomment-789621203",
       "v" : ""
@@ -242,6 +246,10 @@ addVotes({
    },
    "bandwidth.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/12#issuecomment-789584034",
+      "v" : ""
+   },
+   "bansearch.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/16#issuecomment-789730867",
       "v" : ""
    },
    "bantime.pl" : {
@@ -384,6 +392,10 @@ addVotes({
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/1#issuecomment-789346670",
       "v" : ""
    },
+   "chansearch.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-789749064",
+      "v" : ""
+   },
    "chanshare.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/15#issuecomment-789664416",
       "v" : ""
@@ -440,6 +452,10 @@ addVotes({
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/14#issuecomment-789644452",
       "v" : ""
    },
+   "colorize_nicks.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/16#issuecomment-789724804",
+      "v" : ""
+   },
    "colorkick.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/11#issuecomment-789552135",
       "v" : ""
@@ -456,6 +472,10 @@ addVotes({
    "complete_lastspoke.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/3#issuecomment-242156492",
       "v" : 1
+   },
+   "conceal.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-789731681",
+      "v" : ""
    },
    "connectcmd.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/12#issuecomment-789552657",
@@ -533,6 +553,10 @@ addVotes({
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/7#issuecomment-789440595",
       "v" : ""
    },
+   "deadbeef.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-789763494",
+      "v" : ""
+   },
    "defaultchanmode.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/4#issuecomment-789406642",
       "v" : ""
@@ -568,6 +592,14 @@ addVotes({
    "dim_nicks.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/7#issuecomment-242200974",
       "v" : 1
+   },
+   "ding.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/16#issuecomment-789730758",
+      "v" : ""
+   },
+   "discord_unbridge.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-789748929",
+      "v" : ""
    },
    "discord_unhilight.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/13#issuecomment-789622119",
@@ -649,6 +681,10 @@ addVotes({
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/7#issuecomment-789440822",
       "v" : ""
    },
+   "ez_color.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-789731386",
+      "v" : ""
+   },
    "fakectcp.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/14#issuecomment-789654850",
       "v" : ""
@@ -707,6 +743,10 @@ addVotes({
    },
    "forward.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/4#issuecomment-789401758",
+      "v" : ""
+   },
+   "fpaste.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-789749932",
       "v" : ""
    },
    "freenode_filter.pl" : {
@@ -861,6 +901,10 @@ addVotes({
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/8#issuecomment-789447773",
       "v" : ""
    },
+   "iMPD.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-789763148",
+      "v" : ""
+   },
    "ident.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/11#issuecomment-789546916",
       "v" : ""
@@ -899,6 +943,14 @@ addVotes({
    },
    "ignorsula.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/5#issuecomment-789418676",
+      "v" : ""
+   },
+   "il.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-789749432",
+      "v" : ""
+   },
+   "imdb.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-789749315",
       "v" : ""
    },
    "intercept.pl" : {
@@ -1045,8 +1097,16 @@ addVotes({
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/4#issuecomment-242159883",
       "v" : 1
    },
+   "lastspoke.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/16#issuecomment-789730294",
+      "v" : ""
+   },
    "len.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/3#issuecomment-789388405",
+      "v" : ""
+   },
+   "leodict.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-789763328",
       "v" : ""
    },
    "levelclear.pl" : {
@@ -1067,6 +1127,10 @@ addVotes({
    },
    "listen.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/15#issuecomment-789664988",
+      "v" : ""
+   },
+   "listsort.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/16#issuecomment-789730409",
       "v" : ""
    },
    "loadavg.pl" : {
@@ -1091,6 +1155,10 @@ addVotes({
    },
    "logresume.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/7#issuecomment-242200831",
+      "v" : ""
+   },
+   "long_messages.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-789748575",
       "v" : ""
    },
    "ls.pl" : {
@@ -1133,6 +1201,14 @@ addVotes({
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/7#issuecomment-242200884",
       "v" : 2
    },
+   "matryoshka.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/16#issuecomment-789723957",
+      "v" : ""
+   },
+   "merge_resources.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-789748678",
+      "v" : ""
+   },
    "messages_bottom.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/10#issuecomment-789510556",
       "v" : ""
@@ -1155,6 +1231,10 @@ addVotes({
    },
    "mh_sbuserinfo.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/13#issuecomment-789607813",
+      "v" : ""
+   },
+   "mh_secureonlychan_489.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/16#issuecomment-789725176",
       "v" : ""
    },
    "mh_userstatus.pl" : {
@@ -1245,6 +1325,10 @@ addVotes({
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/5#issuecomment-789408952",
       "v" : ""
    },
+   "munge_own_nickname_to_username.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/16#issuecomment-789725051",
+      "v" : ""
+   },
    "my_beep.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/16#issuecomment-789715450",
       "v" : ""
@@ -1288,6 +1372,10 @@ addVotes({
    "nickcolor_expando.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/6#issuecomment-242198347",
       "v" : 1
+   },
+   "nickcolor_gay.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/16#issuecomment-789724936",
+      "v" : ""
    },
    "nickignore.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/2#issuecomment-789380887",
@@ -1385,6 +1473,10 @@ addVotes({
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/3#issuecomment-242155456",
       "v" : ""
    },
+   "ontv2.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-789749562",
+      "v" : ""
+   },
    "oops.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/15#issuecomment-789659837",
       "v" : ""
@@ -1439,6 +1531,10 @@ addVotes({
    },
    "pangotext.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/16#issuecomment-789715043",
+      "v" : ""
+   },
+   "partial.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-789748794",
       "v" : ""
    },
    "paste-derwan.pl" : {
@@ -1519,6 +1615,10 @@ addVotes({
    },
    "queryresume.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/8#issuecomment-789458310",
+      "v" : ""
+   },
+   "quitmsg.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/16#issuecomment-789730638",
       "v" : ""
    },
    "quitrand.pl" : {
@@ -1637,6 +1737,10 @@ addVotes({
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/10#issuecomment-789502547",
       "v" : ""
    },
+   "sbmove.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-789731537",
+      "v" : ""
+   },
    "schwaebisch.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/15#issuecomment-789660218",
       "v" : ""
@@ -1699,6 +1803,10 @@ addVotes({
    },
    "shortenurl.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/3#issuecomment-789387948",
+      "v" : ""
+   },
+   "shorturl.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-789749195",
       "v" : ""
    },
    "showhilight.pl" : {
@@ -1805,6 +1913,10 @@ addVotes({
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/12#issuecomment-789571424",
       "v" : ""
    },
+   "tab_stop.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/16#issuecomment-789724294",
+      "v" : ""
+   },
    "tabcompletenick.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/10#issuecomment-789511128",
       "v" : ""
@@ -1817,12 +1929,24 @@ addVotes({
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/4#issuecomment-789402303",
       "v" : ""
    },
+   "telegram-notify.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-789731026",
+      "v" : ""
+   },
    "thankop.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/5#issuecomment-789417991",
       "v" : ""
    },
+   "theme.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/16#issuecomment-789724613",
+      "v" : ""
+   },
    "thistory.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/9#issuecomment-789472435",
+      "v" : ""
+   },
+   "tictactoe.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/16#issuecomment-789724080",
       "v" : ""
    },
    "timer.pl" : {
@@ -1852,6 +1976,10 @@ addVotes({
    "tmux_away.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/6#issuecomment-242198448",
       "v" : 1
+   },
+   "toggle_hidelevel.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/16#issuecomment-789724193",
+      "v" : ""
    },
    "toilet.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/14#issuecomment-789627474",
@@ -1901,6 +2029,10 @@ addVotes({
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/5#issuecomment-242191284",
       "v" : ""
    },
+   "twitch_notify.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-789731137",
+      "v" : ""
+   },
    "twitter_theme.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/9#issuecomment-789482554",
       "v" : ""
@@ -1931,6 +2063,10 @@ addVotes({
    },
    "unicode.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/6#issuecomment-789428691",
+      "v" : ""
+   },
+   "unread.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/16#issuecomment-789724452",
       "v" : ""
    },
    "upgradeinfo.pl" : {
