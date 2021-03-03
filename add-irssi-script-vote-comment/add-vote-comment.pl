@@ -175,6 +175,7 @@ sub main {
 
     # Dump($res);
     my $done = 0;
+    my $checked = 0;
     my $todo = 0;
     my %move_next_issue_comment;
     for my $sc (sort { $a->{modified} cmp $b->{modified} } @$x) {
@@ -247,10 +248,13 @@ sub main {
 		sleep 5;
 	    }
 	    output "\n";
+	    $checked++;
 	}
     }
     output "\@($done)";
-    output "??($todo)\n";
+    output ".($checked)??($todo)/(";
+    output scalar @$x;
+    output ")\n";
 
     my ($last_issue) = find_last_issue($res);
     if ($last_issue && $res->{issue_map}{$last_issue}{comment_count}) {
