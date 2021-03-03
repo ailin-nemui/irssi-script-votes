@@ -32,6 +32,11 @@ Net::GitHub::V3::Query::__build_methods(
 		  },
    );
 
+$| = 1;
+sub output (@) {
+    print @_;
+}
+
 sub ng {
     my ($user_proj) = @_;
 
@@ -59,14 +64,14 @@ sub get_issues {
 
     my $in = $start + 0;
  RST: while (1) {
-	print STDERR "C($in";
+	output "C($in";
 	local $@;
 	my @comm = eval { $iss->comments($in) };
 	my $err = $@;
-	print STDERR ")";
+	output ")";
 	if ($err) {
 	    $err =~ s/ at .*//s;
-	    print STDERR "E($err)\n";
+	    output "E($err)\n";
 	    last;
 	}
 
@@ -92,7 +97,7 @@ sub get_issues {
 		next RST;
 	    }
 	}
-	print STDERR "\n";
+	output "\n";
 	last;
     }
     my %rr = (issue_map => \%r, script_map => \%res);
@@ -144,9 +149,9 @@ sub main {
     $user_proj //= $ENV{GITHUB_REPOSITORY};
     die "Error: Must specify user/project\n" unless $user_proj;
 
-    print STDERR "SF(";
+    output "SF(";
     my $x = LoadFile($script_file);
-    print STDERR scalar @$x, ")\n";
+    output scalar @$x, ")\n";
 
     my $ng = ng($user_proj);
     my $iss = $ng->issue;
@@ -155,12 +160,12 @@ sub main {
     my $cache = 'get_issue_results.sto';
     my $cache_c = {};
     if (-e $cache) {
-	print STDERR "L.";
+	output "L.";
 	$cache_c = retrieve($cache);
-	print STDERR "..";
+	output "..";
     }
     if ($cache_c && $cache_c->{$user_proj}) {
-	print STDERR "(c!)\n";
+	output "(c!)\n";
 	$res = $cache_c->{$user_proj};
     } else {
 	$res = get_issues($ng, $start);
@@ -170,115 +175,119 @@ sub main {
 
     # Dump($res);
     my $done = 0;
+    my $todo = 0;
     my %move_next_issue_comment;
     for my $sc (sort { $a->{modified} cmp $b->{modified} } @$x) {
-	print STDERR ".$sc->{filename}";
-	my $c;
-	my $found_issue;
-	if (exists $res->{script_map}{$sc->{filename}}) {
-	    print STDERR "\n..I($res->{script_map}{$sc->{filename}}{issue_num})C($res->{script_map}{$sc->{filename}}{id})";
-	    $c = $res->{script_map}{$sc->{filename}};
-	} else {
-	    print STDERR "\n";
-	    for my $issue_num (sort { $a <=> $b } keys %{$res->{issue_map}}) {
-		my $off = $res->{issue_map}{$issue_num}{next_issue_ref_comment} ? 0 : 1;
-		if ($res->{issue_map}{$issue_num}{comment_count} + $off < $MAX_COMMENTS) {
-		    print STDERR "..I($issue_num)";
-		    if ($res->{issue_map}{$issue_num}{issue}{locked}) {
-			print STDERR "oLo";
-			$iss->unlock_issue($issue_num);
-			$done++;
-			$res->{issue_map}{$issue_num}{issue}{locked} = JSON::PP::false;
-		    }
-		    print STDERR "P";
-		    $found_issue = $issue_num;
-		    last;
-		}
-	    }
-	    unless ($found_issue) {
-		my ($last_issue) = find_last_issue($res);
-		print STDERR "..N(";
-		my $new_issue = create_new_votes_issue($ng, $res);
-		$done++;
-		print STDERR "$new_issue";
-		sleep 5;
-		print STDERR ")";
-		if ($last_issue) {
-		    my $lr = $res->{issue_map}{$last_issue};
-		    $lr->{next_issue_num} = $new_issue;
-		    $move_next_issue_comment{$last_issue}++;
-		}
-		$found_issue = $new_issue;
-	    }
-	    $move_next_issue_comment{$found_issue}++;
-	    # my $c = [" -- comment object for $sc->{filename} --"];
-	    print STDERR "~(";
-	    $c = $iss->create_comment($found_issue, {
-		body => "$sc->{filename}\n---\n$sc->{description}\n\nClick on +😃︎ :+1: :-1: to add your votes . ❲ Github login required .. ❳ "
-	    });
-	    print STDERR "$c->{id})";
-	    $done++;
-	    $c->{issue_num} = $found_issue;
-	    $c->{issue_ref} = $res->{issue_map}{$found_issue}{issue};
-	    lock_ref_keys($c);
-	    $c->{body} =~ s/\r\n/\n/g;
-	    push @{$res->{issue_map}{$found_issue}{comments}}, $c;
-	    $res->{issue_map}{$found_issue}{comment_count}++;
-	    $res->{script_map}{$sc->{filename}} = $c;
-	    sleep 5;
-	}
-	# $c->{body} =~ s{❲ Github login required .. ❳ \Z}{❲ Github [login](https://github.com/login?return_to=/$user_proj/issues/$c->{issue_num}%23issuecomment-$c->{id}) required .. ❳ }m;
-	my $body = "$sc->{filename}\n---\n$sc->{description}\n\nClick on +😃︎ :+1: :-1: to add your votes . ❲ Github [login](https://github.com/login?return_to=/$user_proj/issues/$c->{issue_num}%23issuecomment-$c->{id}) required .. ❳ ";
-	if ($body ne $c->{body}) {
-	    print STDERR "U";
-	    $iss->update_comment($c->{id}, { body => $body });
-	    $done++;
-	    $c->{body} = $body;
-	    sleep 5;
-	}
-	print STDERR "\n";
+	output ".$sc->{filename}";
 	if ($done + scalar keys %move_next_issue_comment >= $MAX_AT_ONCE) {
-	    print STDERR "\@($done)\n";
-	    last;
+	    output "?\n";
+	    $todo++;
+	} else {
+	    my $c;
+	    my $found_issue;
+	    if (exists $res->{script_map}{$sc->{filename}}) {
+		output "\n..I($res->{script_map}{$sc->{filename}}{issue_num})C($res->{script_map}{$sc->{filename}}{id})";
+		$c = $res->{script_map}{$sc->{filename}};
+	    } else {
+		output "\n";
+		for my $issue_num (sort { $a <=> $b } keys %{$res->{issue_map}}) {
+		    my $off = $res->{issue_map}{$issue_num}{next_issue_ref_comment} ? 0 : 1;
+		    if ($res->{issue_map}{$issue_num}{comment_count} + $off < $MAX_COMMENTS) {
+			output "..I($issue_num)";
+			if ($res->{issue_map}{$issue_num}{issue}{locked}) {
+			    output "oLo";
+			    $iss->unlock_issue($issue_num);
+			    $done++;
+			    $res->{issue_map}{$issue_num}{issue}{locked} = JSON::PP::false;
+			}
+			output "P";
+			$found_issue = $issue_num;
+			last;
+		    }
+		}
+		unless ($found_issue) {
+		    my ($last_issue) = find_last_issue($res);
+		    output "..N(";
+		    my $new_issue = create_new_votes_issue($ng, $res);
+		    $done++;
+		    output "$new_issue";
+		    sleep 5;
+		    output ")";
+		    if ($last_issue) {
+			my $lr = $res->{issue_map}{$last_issue};
+			$lr->{next_issue_num} = $new_issue;
+			$move_next_issue_comment{$last_issue}++;
+		    }
+		    $found_issue = $new_issue;
+		}
+		$move_next_issue_comment{$found_issue}++;
+		# my $c = [" -- comment object for $sc->{filename} --"];
+		output "~(";
+		$c = $iss->create_comment($found_issue, {
+		    body => "$sc->{filename}\n---\n$sc->{description}\n\nClick on +😃︎ :+1: :-1: to add your votes . ❲ Github login required .. ❳ "
+		});
+		output "$c->{id})";
+		$done++;
+		$c->{issue_num} = $found_issue;
+		$c->{issue_ref} = $res->{issue_map}{$found_issue}{issue};
+		lock_ref_keys($c);
+		$c->{body} =~ s/\r\n/\n/g;
+		push @{$res->{issue_map}{$found_issue}{comments}}, $c;
+		$res->{issue_map}{$found_issue}{comment_count}++;
+		$res->{script_map}{$sc->{filename}} = $c;
+		sleep 5;
+	    }
+	    # $c->{body} =~ s{❲ Github login required .. ❳ \Z}{❲ Github [login](https://github.com/login?return_to=/$user_proj/issues/$c->{issue_num}%23issuecomment-$c->{id}) required .. ❳ }m;
+	    my $body = "$sc->{filename}\n---\n$sc->{description}\n\nClick on +😃︎ :+1: :-1: to add your votes . ❲ Github [login](https://github.com/login?return_to=/$user_proj/issues/$c->{issue_num}%23issuecomment-$c->{id}) required .. ❳ ";
+	    if ($body ne $c->{body}) {
+		output "U";
+		$iss->update_comment($c->{id}, { body => $body });
+		$done++;
+		$c->{body} = $body;
+		sleep 5;
+	    }
+	    output "\n";
 	}
     }
+    output "\@($done)";
+    output "??($todo)\n";
 
     my ($last_issue) = find_last_issue($res);
     if ($last_issue && $res->{issue_map}{$last_issue}{comment_count}) {
-	print STDERR "L(";
+	output "L(";
 	my $new_issue = create_new_votes_issue($ng, $res);
 	my $lr = $res->{issue_map}{$last_issue};
 	$lr->{next_issue_num} = $new_issue;
 	$move_next_issue_comment{$last_issue}++;
-	print STDERR "$new_issue";
+	output "$new_issue";
 	$iss->lock_issue($new_issue);
 	$res->{issue_map}{$new_issue}{issue}{locked} = JSON::PP::true;
-	print STDERR ")\n";
+	output ")\n";
     }
     for my $issue_num (sort { $a <=> $b } keys %move_next_issue_comment) {
-	print STDERR "M($issue_num->$res->{issue_map}{$issue_num}{next_issue_num})+$move_next_issue_comment{$issue_num}";
+	output "M($issue_num->$res->{issue_map}{$issue_num}{next_issue_num})+$move_next_issue_comment{$issue_num}";
 	# my $c = [ " -- redirect comment: $issue_num --> $res->{issue_map}{$issue_num}{next_issue_num} -- "];
 	# post new comment
 	my $c = $iss->create_comment($issue_num, {
 	    body => "#$res->{issue_map}{$issue_num}{next_issue_num}"
 	});
-	print STDERR ".";
+	output ".";
 	push @{$res->{issue_map}{$issue_num}{comments}}, $c;
 	$res->{issue_map}{$issue_num}{comment_count}++;
 	if ($res->{issue_map}{$issue_num}{next_issue_ref_comment}) {
 	    # delete old comment
-	    print STDERR "X($res->{issue_map}{$issue_num}{next_issue_ref_comment}{id}";
+	    output "X($res->{issue_map}{$issue_num}{next_issue_ref_comment}{id}";
 	    $iss->delete_comment($res->{issue_map}{$issue_num}{next_issue_ref_comment}{id});
 	    $res->{issue_map}{$issue_num}{comment_count}--;
-	    print STDERR ")\n";
+	    output ")\n";
 	} else {
-	    print STDERR "\n";
+	    output "\n";
 	}
 	$res->{issue_map}{$issue_num}{next_issue_ref_comment} = $c;
     }
-    print STDERR "s(";
+    output "s(";
     nstore $cache_c, $cache;
-    print STDERR ")\n";
+    output ")\n";
     #Dump($cache_c);
 }
 
