@@ -243,6 +243,7 @@ sub main {
 	    }
 	    # $c->{body} =~ s{❲ Github login required .. ❳ \Z}{❲ Github [login](https://github.com/login?return_to=/$user_proj/issues/$c->{issue_num}%23issuecomment-$c->{id}) required .. ❳ }m;
 	    my $body = "$sc->{filename}\n---\n$sc->{description}\n\nClick on +😃︎ :+1: :-1: to add your votes . ❲ Github [login](https://github.com/login?return_to=/$user_proj/issues/$c->{issue_num}%23issuecomment-$c->{id}) required .. ❳ ";
+	    $body =~ s/\r\n/\n/g;
 	    if ($body ne $c->{body}) {
 		output "U";
 		$iss->update_comment($c->{id}, { body => $body });
