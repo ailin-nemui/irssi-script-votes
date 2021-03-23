@@ -1205,6 +1205,10 @@ addVotes({
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/16#issuecomment-789723957",
       "v" : ""
    },
+   "matterircd_complete.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-804825200",
+      "v" : ""
+   },
    "merge_resources.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-789748678",
       "v" : ""
