@@ -81,7 +81,7 @@ addVotes({
    },
    "anames.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/14#issuecomment-789627582",
-      "v" : ""
+      "v" : 1
    },
    "anotherway.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/4#issuecomment-789406377",
@@ -117,7 +117,7 @@ addVotes({
    },
    "auto_whois.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/6#issuecomment-789429304",
-      "v" : ""
+      "v" : 1
    },
    "autoaway.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/14#issuecomment-789659310",
@@ -1847,7 +1847,7 @@ addVotes({
    },
    "smartfilter.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/3#issuecomment-242156661",
-      "v" : 1
+      "v" : 2
    },
    "smiley.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/5#issuecomment-789409267",
