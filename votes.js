@@ -2111,7 +2111,7 @@ addVotes({
    },
    "usercount.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/5#issuecomment-242191360",
-      "v" : 4
+      "v" : 5
    },
    "userhost.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/9#issuecomment-789473061",
