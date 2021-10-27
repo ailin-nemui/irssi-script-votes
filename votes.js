@@ -571,7 +571,7 @@ addVotes({
    },
    "desktop-notify.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/7#issuecomment-242201037",
-      "v" : 4
+      "v" : 5
    },
    "df.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/12#issuecomment-789584352",
