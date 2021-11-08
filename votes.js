@@ -388,6 +388,10 @@ addVotes({
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/2#issuecomment-789366759",
       "v" : ""
    },
+   "chankeys.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-963056453",
+      "v" : ""
+   },
    "chanpeak.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/1#issuecomment-789346670",
       "v" : ""
