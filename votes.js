@@ -1303,7 +1303,7 @@ addVotes({
    },
    "mouse.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/16#issuecomment-789699339",
-      "v" : ""
+      "v" : 1
    },
    "mouse_soliton.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/16#issuecomment-789715156",
