@@ -378,7 +378,7 @@ addVotes({
    },
    "chanact.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/11#issuecomment-789547566",
-      "v" : ""
+      "v" : 1
    },
    "chanfull.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/4#issuecomment-789401478",
