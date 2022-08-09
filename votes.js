@@ -813,6 +813,10 @@ addVotes({
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/15#issuecomment-789659567",
       "v" : ""
    },
+   "graze.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-1209252057",
+      "v" : ""
+   },
    "greetignore.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/9#issuecomment-789483350",
       "v" : ""
@@ -1899,6 +1903,10 @@ addVotes({
    },
    "stocks.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/3#issuecomment-242155522",
+      "v" : ""
+   },
+   "suppress_yubikey_otp.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-1209251882",
       "v" : ""
    },
    "synccheck.pl" : {
