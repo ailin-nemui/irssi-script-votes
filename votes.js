@@ -1991,7 +1991,7 @@ addVotes({
    },
    "tmux_away.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/6#issuecomment-242198448",
-      "v" : 1
+      "v" : 2
    },
    "toggle_hidelevel.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/16#issuecomment-789724193",
@@ -2023,7 +2023,7 @@ addVotes({
    },
    "trackbar.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/6#issuecomment-242195542",
-      "v" : 8
+      "v" : 9
    },
    "trackbar22.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/6#issuecomment-242198427",
