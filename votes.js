@@ -1699,7 +1699,7 @@ addVotes({
    },
    "revolve.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/16#issuecomment-789715623",
-      "v" : ""
+      "v" : 1
    },
    "rhythmbox.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/5#issuecomment-789418599",
