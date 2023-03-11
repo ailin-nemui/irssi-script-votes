@@ -1607,7 +1607,7 @@ addVotes({
    },
    "pushsafer.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/14#issuecomment-789654227",
-      "v" : ""
+      "v" : 1
    },
    "qchallengeauth.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/4#issuecomment-242158569",
