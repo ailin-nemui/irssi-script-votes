@@ -406,7 +406,7 @@ addVotes({
    },
    "chansort.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/4#issuecomment-789401530",
-      "v" : ""
+      "v" : 1
    },
    "chansort_configurable.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/7#issuecomment-242200951",
