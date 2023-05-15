@@ -1053,6 +1053,10 @@ addVotes({
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/3#issuecomment-789388116",
       "v" : ""
    },
+   "jpqnmwin.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-1547664858",
+      "v" : ""
+   },
    "jump.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/14#issuecomment-789655167",
       "v" : ""
