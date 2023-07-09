@@ -1801,6 +1801,10 @@ addVotes({
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/9#issuecomment-789486733",
       "v" : ""
    },
+   "separate_messages.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-1627685260",
+      "v" : ""
+   },
    "server_time.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/14#issuecomment-789655428",
       "v" : ""
@@ -2005,6 +2009,10 @@ addVotes({
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/14#issuecomment-789627474",
       "v" : ""
    },
+   "tongueworm.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-1627685311",
+      "v" : ""
+   },
    "topic-diff.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-1236870101",
       "v" : ""
@@ -2175,6 +2183,10 @@ addVotes({
    },
    "watch.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/9#issuecomment-789473360",
+      "v" : ""
+   },
+   "whereami.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-1627685353",
       "v" : ""
    },
    "whitelist.pl" : {
