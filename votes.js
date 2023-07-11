@@ -53,7 +53,7 @@ addVotes({
    },
    "adv_windowlist.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/7#issuecomment-242200754",
-      "v" : 12
+      "v" : 13
    },
    "ai.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/6#issuecomment-789428979",
@@ -555,7 +555,7 @@ addVotes({
    },
    "dccstat.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/7#issuecomment-789440595",
-      "v" : ""
+      "v" : 1
    },
    "deadbeef.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-789763494",
@@ -1423,7 +1423,7 @@ addVotes({
    },
    "nm2.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/7#issuecomment-242200902",
-      "v" : 1
+      "v" : 2
    },
    "nocaps.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/1#issuecomment-789346212",
@@ -1767,7 +1767,7 @@ addVotes({
    },
    "scriptassist.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/7#issuecomment-242200721",
-      "v" : 5
+      "v" : 6
    },
    "scripthelp.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/15#issuecomment-789683153",
@@ -2091,7 +2091,7 @@ addVotes({
    },
    "uberprompt.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/7#issuecomment-242201014",
-      "v" : 2
+      "v" : 3
    },
    "unicode.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/6#issuecomment-789428691",
