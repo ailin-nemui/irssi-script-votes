@@ -2097,6 +2097,10 @@ addVotes({
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/6#issuecomment-789428691",
       "v" : ""
    },
+   "unicode_tab.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-1637056234",
+      "v" : ""
+   },
    "unread.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/16#issuecomment-789724452",
       "v" : ""
