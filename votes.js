@@ -53,7 +53,7 @@ addVotes({
    },
    "adv_windowlist.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/7#issuecomment-242200754",
-      "v" : 13
+      "v" : 14
    },
    "ai.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/6#issuecomment-789428979",
@@ -1387,7 +1387,7 @@ addVotes({
    },
    "nickcolor_expando.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/6#issuecomment-242198347",
-      "v" : 1
+      "v" : 2
    },
    "nickcolor_gay.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/16#issuecomment-789724936",
@@ -2035,7 +2035,7 @@ addVotes({
    },
    "trackbar.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/6#issuecomment-242195542",
-      "v" : 9
+      "v" : 10
    },
    "trackbar22.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/6#issuecomment-242198427",
