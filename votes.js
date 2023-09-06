@@ -2292,5 +2292,9 @@ addVotes({
    "ziew.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/13#issuecomment-789608569",
       "v" : ""
+   },
+   "zmartfilter.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-1708145811",
+      "v" : ""
    }
 })
