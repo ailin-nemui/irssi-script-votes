@@ -2045,6 +2045,10 @@ addVotes({
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/16#issuecomment-789699122",
       "v" : ""
    },
+   "transformer.py" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-1735328769",
+      "v" : ""
+   },
    "translit.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/11#issuecomment-789551920",
       "v" : ""
