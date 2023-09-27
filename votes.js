@@ -809,6 +809,10 @@ addVotes({
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/2#issuecomment-242152712",
       "v" : 1
    },
+   "gotify.py" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-1737194231",
+      "v" : ""
+   },
    "gpgvalidator.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/15#issuecomment-789659567",
       "v" : ""
