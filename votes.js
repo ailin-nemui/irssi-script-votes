@@ -1393,6 +1393,10 @@ addVotes({
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/6#issuecomment-242198347",
       "v" : 3
    },
+   "nickcolor_expando_simple.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-1831698943",
+      "v" : ""
+   },
    "nickcolor_gay.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/16#issuecomment-789724936",
       "v" : ""
@@ -1428,6 +1432,10 @@ addVotes({
    "nm2.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/7#issuecomment-242200902",
       "v" : 2
+   },
+   "no_opmsg.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/18#issuecomment-1831699349",
+      "v" : ""
    },
    "nocaps.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/1#issuecomment-789346212",
