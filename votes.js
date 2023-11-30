@@ -2069,6 +2069,10 @@ addVotes({
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/6#issuecomment-242198297",
       "v" : 6
    },
+   "trivia.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/18#issuecomment-1833558766",
+      "v" : ""
+   },
    "trustweb.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/5#issuecomment-789409364",
       "v" : ""
