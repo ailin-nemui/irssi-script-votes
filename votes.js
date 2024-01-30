@@ -1817,6 +1817,10 @@ addVotes({
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-1627685260",
       "v" : ""
    },
+   "server_status.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/18#issuecomment-1916620314",
+      "v" : ""
+   },
    "server_time.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/14#issuecomment-789655428",
       "v" : ""
@@ -1899,6 +1903,10 @@ addVotes({
    },
    "special_complete.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/2#issuecomment-789380827",
+      "v" : ""
+   },
+   "speedread.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/18#issuecomment-1916620561",
       "v" : ""
    },
    "spell.pl" : {
@@ -2307,6 +2315,10 @@ addVotes({
    },
    "xqf.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/9#issuecomment-789482388",
+      "v" : ""
+   },
+   "yourls.py" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/18#issuecomment-1916620845",
       "v" : ""
    },
    "ziew.pl" : {
