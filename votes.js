@@ -1333,6 +1333,10 @@ addVotes({
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/10#issuecomment-789502030",
       "v" : ""
    },
+   "mqtt.py" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/18#issuecomment-1918900053",
+      "v" : ""
+   },
    "msg2notice.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/10#issuecomment-789501590",
       "v" : ""
