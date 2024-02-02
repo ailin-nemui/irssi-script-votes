@@ -909,6 +909,10 @@ addVotes({
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/14#issuecomment-789628419",
       "v" : ""
    },
+   "holes.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/18#issuecomment-1923596595",
+      "v" : ""
+   },
    "hostname.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/8#issuecomment-789447773",
       "v" : ""
