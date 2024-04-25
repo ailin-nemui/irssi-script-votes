@@ -2063,7 +2063,7 @@ addVotes({
    },
    "trackbar.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/6#issuecomment-242195542",
-      "v" : 14
+      "v" : 15
    },
    "trackbar22.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/6#issuecomment-242198427",
