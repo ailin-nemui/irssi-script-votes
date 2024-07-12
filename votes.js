@@ -1787,7 +1787,7 @@ addVotes({
    },
    "scriptassist.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/7#issuecomment-242200721",
-      "v" : 8
+      "v" : 9
    },
    "scripthelp.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/15#issuecomment-789683153",
