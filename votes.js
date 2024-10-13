@@ -923,7 +923,7 @@ addVotes({
    },
    "ident.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/11#issuecomment-789546916",
-      "v" : ""
+      "v" : 1
    },
    "identd.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/13#issuecomment-789622008",
