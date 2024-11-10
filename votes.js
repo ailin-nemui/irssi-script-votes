@@ -53,7 +53,7 @@ addVotes({
    },
    "adv_windowlist.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/7#issuecomment-242200754",
-      "v" : 13
+      "v" : 14
    },
    "ai.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/6#issuecomment-789428979",
@@ -2063,7 +2063,7 @@ addVotes({
    },
    "trackbar.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/6#issuecomment-242195542",
-      "v" : 16
+      "v" : 17
    },
    "trackbar22.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/6#issuecomment-242198427",
