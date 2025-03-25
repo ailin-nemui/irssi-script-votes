@@ -1719,7 +1719,7 @@ addVotes({
    },
    "resize_split.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/5#issuecomment-789409064",
-      "v" : ""
+      "v" : 1
    },
    "revolve.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/16#issuecomment-789715623",
@@ -2183,7 +2183,7 @@ addVotes({
    },
    "usercount.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/5#issuecomment-242191360",
-      "v" : 6
+      "v" : 7
    },
    "userhost.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/9#issuecomment-789473061",
