@@ -1403,7 +1403,7 @@ addVotes({
    },
    "nickcolor_expando_simple.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-1831698943",
-      "v" : ""
+      "v" : 1
    },
    "nickcolor_gay.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/16#issuecomment-789724936",
