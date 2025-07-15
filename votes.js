@@ -2023,7 +2023,7 @@ addVotes({
    },
    "tmux-nicklist-portable.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/7#issuecomment-242201051",
-      "v" : 6
+      "v" : 7
    },
    "tmux_away.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/6#issuecomment-242198448",
