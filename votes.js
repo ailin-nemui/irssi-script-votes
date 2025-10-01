@@ -1289,6 +1289,10 @@ addVotes({
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/14#issuecomment-789628041",
       "v" : ""
    },
+   "mlist.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/18#issuecomment-3355866895",
+      "v" : ""
+   },
    "mlock.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/1#issuecomment-789316150",
       "v" : ""
