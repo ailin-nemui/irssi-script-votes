@@ -1403,7 +1403,7 @@ addVotes({
    },
    "nickcolor_expando.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/6#issuecomment-242198347",
-      "v" : 4
+      "v" : 5
    },
    "nickcolor_expando_simple.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/17#issuecomment-1831698943",
@@ -1891,7 +1891,7 @@ addVotes({
    },
    "smartfilter.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/3#issuecomment-242156661",
-      "v" : 1
+      "v" : 2
    },
    "smiley.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/5#issuecomment-789409267",
@@ -2087,7 +2087,7 @@ addVotes({
    },
    "trigger.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/6#issuecomment-242198297",
-      "v" : 6
+      "v" : 7
    },
    "trivia.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/18#issuecomment-1833558766",
