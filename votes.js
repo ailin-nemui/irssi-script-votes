@@ -1773,6 +1773,10 @@ addVotes({
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/13#issuecomment-789621804",
       "v" : ""
    },
+   "sb_separator.pl" : {
+      "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/18#issuecomment-3694670065",
+      "v" : ""
+   },
    "sbclearmatch.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/10#issuecomment-789502547",
       "v" : ""
