@@ -1,7 +1,7 @@
 addVotes({
    "0x0st.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/8#issuecomment-532557531",
-      "v" : 1
+      "v" : 2
    },
    "8-ball.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/16#issuecomment-789714604",
@@ -53,7 +53,7 @@ addVotes({
    },
    "adv_windowlist.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/7#issuecomment-242200754",
-      "v" : 14
+      "v" : 15
    },
    "ai.pl" : {
       "u" : "https://github.com/ailin-nemui/irssi-script-votes/issues/6#issuecomment-789428979",
